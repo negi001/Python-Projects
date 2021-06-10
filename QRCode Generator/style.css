@@ -1,0 +1,103 @@
+/* Container holding the image and the text */
+.container-fluid {
+  position: relative;
+  /*text-align: center;*/
+  color: white;
+}
+
+/* Bottom left text */
+#back {
+  position: absolute;
+  font-size: 200px;
+  margin-left: 30px;
+  opacity: 0.3;
+}
+
+/* background image */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* input box */
+#text {
+  border: 1px solid purple;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.4;
+  height: 40px;
+}
+
+/* h1 tags */
+h1 {
+  position: absolute;
+  color: white;
+}
+
+#submit {
+  background-color: rgb(236, 21, 122);
+  color: white;
+}
+
+#text-1 {
+  margin-left: 30px;
+  margin-top: 80px;
+  font-size: 70px;
+}
+
+p {
+  position: absolute;
+  padding-top: 160px;
+  margin-left: 30px;
+}
+
+#div-2 {
+  position: absolute;
+  display: block;
+  margin-top: 240px;
+  margin-left: 30px;
+}
+
+/* input box */
+input {
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  opacity: 0.9;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* submit button */
+button {
+  font-family: "Roboto", sans-serif;
+  background-color: hotpink;
+  border-radius: 20px 10px 10px 0px;
+  color: white;
+  border: 1px solid hotpink;
+  height: 40px;
+  width: 150px;
+}
+
+button:hover {
+  box-shadow: 3px 1px 1px 0px hotpink;
+  transition: 0.4s;
+}
+
+/* qr image */
+#qr {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+}
+
+.code {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 160px;
+}

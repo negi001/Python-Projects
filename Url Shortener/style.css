@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(21, 10, 125, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 800px;
+  height: 100%;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 8px 0;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  height: 50px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 25px; */
+  color: green;
+  text-align: center;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(21, 10, 125, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  height: 50px;
+}
+
+button:focus {
+  outline: none;
+}
